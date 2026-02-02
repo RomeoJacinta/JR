@@ -314,37 +314,37 @@
                 // Updated slides with portrait-oriented outfit images
                 this.slides = [
                     {
-                        image: "https://clubllondon.com/cdn/shop/files/uploaded_image_0_chxhd_1200x.jpg?v=1742902476",
+                        image: "img/1-20250521091507.webp",
                         title: "Elegant Sage Gown",
                         description: "Floor-length dress with delicate lace accents",
                         type: "Formal Attire"
                     },
                     {
-                        image: "https://dqp736wsu6w3m.cloudfront.net/s3bucket/w1000/looks/2766/sage-green-overshirt-striped-shirt-cream-trousers.jpg",
+                        image: "img/sage-green-overshirt-striped-shirt-cream-trousers.jpg",
                         title: "Modern Suit in Sage",
                         description: "Contemporary suit with sage green jacket",
                         type: "Men's Formal"
                     },
                     {
-                        image: "https://www.liena.co.uk/cdn/shop/files/07-12-23-HarleySage-4.jpg?v=1704369778&width=1200",
+                        image: "img/07-12-23-HarleySage-4.jpg",
                         title: "Chic Cocktail Dress",
                         description: "Midi dress in soft sage with subtle shimmer",
                         type: "Cocktail Attire"
                     },
                     {
-                        image: "https://i.etsystatic.com/23998705/r/il/12309b/4732905036/il_1080xN.4732905036_b2zt.jpg",
+                        image: "img/shirtsolreg-02-sagegrn-2_b32e023b-60c5-445f-a533-5db897a4dcf7.webp",
                         title: "Sophisticated Separates",
                         description: "Sage green top paired with neutral trousers",
                         type: "Smart Casual"
                     },
                     {
-                        image: "https://www.awbridal.com/media/catalog/product/cache/0d032ee68375a06f9126449a5dff54ed/LF24063CP/1-20250521091507.webp",
+                        image: "img/uploaded_image_0_chxhd_1200x.webp",
                         title: "Romantic Floral Ensemble",
                         description: "Sage green dress with floral pattern accents",
                         type: "Garden Party"
                     },
                     {
-                        image: "https://sc04.alicdn.com/kf/H9485fbc236c8414a896b3eff1e3149092.png",
+                        image: "img/NHGC_hunter_green-closeup.webp",
                         title: "Classic Tailored Look",
                         description: "Timeless sage suit with modern cut",
                         type: "Tie Optional"
