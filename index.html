@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <!-- Improved viewport for mobile -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, viewport-fit=cover">
-    <title>Romeo & Wife | 07 March 2026</title><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <title>Jacinta & Romeo</title><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 <link rel="manifest" href="/site.webmanifest">
@@ -362,23 +362,29 @@
         }
         
         .hero-scroll {
-            position: absolute;
-            bottom: 40px;
-            left: 50%;
-            transform: translateX(-50%);
-            color: var(--sage-light);
-            font-size: 0.9rem;
-            letter-spacing: 2px;
-            opacity: 0;
-            animation: fadeUp 1s ease 1.1s forwards;
-        }
-        
-        .hero-scroll i {
-            display: block;
-            margin-top: 10px;
-            animation: bounce 2s infinite;
-        }
-        
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: var(--sage-light);
+    font-size: 0.9rem;
+    letter-spacing: 2px;
+    opacity: 0;
+    animation: fadeUp 1s ease 1.1s forwards;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.hero-scroll i {
+    margin-top: 10px;
+    animation: bounce 2s infinite;
+}
         /* Updated Our Story Section - Shorter with Stats */
         .our-story-section {
             padding: 8rem 5%;
