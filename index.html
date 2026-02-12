@@ -3153,36 +3153,16 @@
             // Update modal content based on attendance status
             if (attendanceStatus === 'yes') {
                 modalIcon.className = 'fas fa-check-circle';
-                modalTitle.textContent = '✨ RSVP Received!';
-                modalMessage.textContent = `Thank you, ${name}! We're so excited to celebrate with you.`;
+                modalTitle.textContent = 'RSVP Received!';
+                modalMessage.textContent = `Thank you, ${name}! We're so excited to celebrate with you.
+                                            A confirmation email will be sent to ${email} shortly.
+                                            
+                                            Use it to as your entry ticket on the big day!`;
                 
-                modalDetails.innerHTML = `
-                    <div class="modal-detail-item">
-                        <i class="fas fa-calendar-check"></i>
-                        <span><strong>Status:</strong> Will attend</span>
-                    </div>
-                    <div class="modal-detail-item">
-                        <i class="fas fa-users"></i>
-                        <span><strong>Guests:</strong> ${guestCount}</span>
-                    </div>
-                    <div class="modal-detail-item">
-                        <i class="fas fa-utensils"></i>
-                        <span><strong>Dietary:</strong> ${dietary}</span>
-                    </div>
-                    <div class="modal-detail-item">
-                        <i class="fas fa-envelope"></i>
-                        <span><strong>Email:</strong> ${email}</span>
-                    </div>
-                    ${message && message !== 'No message provided' ? `
-                    <div class="modal-detail-item">
-                        <i class="fas fa-heart"></i>
-                        <span><strong>Message:</strong> "${message.substring(0, 50)}${message.length > 50 ? '...' : ''}"</span>
-                    </div>
-                    ` : ''}
-                `;
+
             } else {
                 modalIcon.className = 'fas fa-heart';
-                modalTitle.textContent = '💚 Thank You';
+                modalTitle.textContent = 'Thank You';
                 modalMessage.textContent = `We appreciate you letting us know, ${name}. You'll be in our thoughts!`;
                 
                 modalDetails.innerHTML = `
